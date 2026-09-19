@@ -747,8 +747,9 @@ def patch_vbmeta(pack_cfg):
 
 
 def _append_lpc_entry(lpc_args, part, img_path, size, pack_cfg):
-    lpc_args.append("--partition={}:readonly:{}:{}".format(
-        part, size, pack_cfg.get("super_group", "main")))
+    attrs = "readonly" if pack_cfg.get("readonly", "true").lower() == "true" else "none"
+    lpc_args.append("--partition={}:{}:{}:{}".format(
+        part, attrs, size, pack_cfg.get("super_group", "main")))
     lpc_args.append("--image={}={}".format(part, img_path))
 
 
