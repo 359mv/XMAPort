@@ -1,6 +1,6 @@
 # XMAPort
 
-[![GitHub Release](https://img.shields.io/badge/version-260824.Beta-blue)](../../releases)
+[![GitHub Release](https://img.shields.io/badge/version-260919.Beta-blue)](../../releases)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey)](#%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](#%E8%AE%B8%E5%8F%AF%E8%AF%81)
 
